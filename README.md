@@ -259,7 +259,53 @@ FROM yong_animals;
 12. Объединить все таблицы в одну, при этом сохраняя поля, указывающие на
     прошлую принадлежность к старым таблицам.
 
+```sql
 
+SELECT h.Name,
+       h.Birthdate,
+       h.Commands,
+       pa.Genus_name,
+       ya.Age_in_month
+FROM horses h
+LEFT JOIN yong_animals ya ON ya.Name = h.Name
+LEFT JOIN pack_animals pa ON pa.Id = h.Genus_id
+UNION
+SELECT d.Name,
+       d.Birthdate,
+       d.Commands,
+       pa.Genus_name,
+       ya.Age_in_month
+FROM donkeys d
+LEFT JOIN yong_animals ya ON ya.Name = d.Name
+LEFT JOIN pack_animals pa ON pa.Id = d.Genus_id
+UNION
+SELECT c.Name,
+       c.Birthdate,
+       c.Commands,
+       ha.Genus_name,
+       ya.Age_in_month
+FROM cats c
+LEFT JOIN yong_animals ya ON ya.Name = c.Name
+LEFT JOIN home_animals ha ON ha.Id = c.Genus_id
+UNION
+SELECT d.Name,
+       d.Birthdate,
+       d.Commands,
+       ha.Genus_name,
+       ya.Age_in_month
+FROM dogs d
+LEFT JOIN yong_animals ya ON ya.Name = d.Name
+LEFT JOIN home_animals ha ON ha.Id = d.Genus_id
+UNION
+SELECT hm.Name,
+       hm.Birthdate,
+       hm.Commands,
+       ha.Genus_name,
+       ya.Age_in_month
+FROM hamsters hm
+LEFT JOIN yong_animals ya ON ya.Name = hm.Name
+LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
+```
 13. Создать класс с Инкапсуляцией методов и наследованием по диаграмме.
 
 14. Написать программу, имитирующую работу реестра домашних животных.

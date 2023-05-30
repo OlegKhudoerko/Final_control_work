@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1e8ff26-d264-4305-ba38-711ffa7de82d" name="Changes" comment="Девятое задание">
+    <list default="true" id="a1e8ff26-d264-4305-ba38-711ffa7de82d" name="Changes" comment="Одиннадцатое задание">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685431502112</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Десятое задание">
+      <created>1685431813765</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1685431813765</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Одиннадцатое задание">
+      <created>1685432042380</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1685432042380</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +197,8 @@
     <MESSAGE value="Седьмое задание" />
     <MESSAGE value="Восьмое задание" />
     <MESSAGE value="Девятое задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="Девятое задание" />
+    <MESSAGE value="Десятое задание" />
+    <MESSAGE value="Одиннадцатое задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="Одиннадцатое задание" />
   </component>
 </project>
