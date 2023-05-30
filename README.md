@@ -45,6 +45,7 @@
    человека”
 
 ```sql
+
 DROP DATABASE IF EXISTS Mans_friends;
 
 
@@ -53,6 +54,7 @@ CREATE DATABASE Mans_friends;
 8. Создать таблицы с иерархией из диаграммы в БД
 
 ```sql
+
 USE Mans_friends;
 
 
@@ -90,8 +92,102 @@ VALUES ('Собаки', 2),
        ('Кошки', 2),
        ('Хомяки', 2);
 ```
+
 9. Заполнить низкоуровневые таблицы именами(животных), командами
    которые они выполняют и датами рождения
+
+```sql
+
+CREATE TABLE dogs
+  (Id INT AUTO_INCREMENT PRIMARY KEY,
+                                 Name VARCHAR(20),
+                                      Birthdate DATE, Commands VARCHAR(50),
+                                                               Genus_id INT,
+   FOREIGN KEY (Genus_id) REFERENCES home_animals (Id) ON DELETE CASCADE ON UPDATE CASCADE);
+
+
+INSERT INTO dogs (Name, Commands, Birthdate, Genus_id)
+VALUES ('Шарик', 'Сидеть', '2015-01-01', 2),
+       ('Рекс', 'Апорт', '2016-02-02', 2),
+       ('Барбос', 'Лежать', '2017-03-03', 2),
+       ('Тузик', 'Фас', '2018-04-04', 2);
+
+
+CREATE TABLE cats
+  (Id INT AUTO_INCREMENT PRIMARY KEY,
+                                 Name VARCHAR(20),
+                                      Birthdate DATE, Commands VARCHAR(50),
+                                                               Genus_id INT,
+   FOREIGN KEY (Genus_id) REFERENCES home_animals (Id) ON DELETE CASCADE ON UPDATE CASCADE);
+
+
+INSERT INTO cats (Name, Commands, Birthdate, Genus_id)
+VALUES ('Мурка', 'Ловить мышей', '2018-07-01', 1),
+       ('Барсик', 'Дрыхнуть', '2019-04-15', 1),
+       ('Матроскин', 'Гулять на улице', '2019-05-05', 1),
+       ('Рыжик', 'Мурлыкать', '2020-01-20', 1);
+
+
+CREATE TABLE hamsters
+  (Id INT AUTO_INCREMENT PRIMARY KEY,
+                                 Name VARCHAR(20),
+                                      Birthdate DATE, Commands VARCHAR(50),
+                                                               Genus_id INT,
+   FOREIGN KEY (Genus_id) REFERENCES home_animals (Id) ON DELETE CASCADE ON UPDATE CASCADE);
+
+
+INSERT INTO hamsters (Name, Commands, Birthdate, Genus_id)
+VALUES ('Хрум', 'Крутиться в колесе', '2019-10-05', 3),
+       ('Булька', 'Кушать семечки', '2020-03-20', 3),
+       ('Пушок', 'Спать в гнезде', '2021-01-10', 3),
+       ('Лора', NULL, '2022-12-06', 3);
+
+
+CREATE TABLE horses
+  (Id INT AUTO_INCREMENT PRIMARY KEY,
+                                 Name VARCHAR(20),
+                                      Birthdate DATE, Commands VARCHAR(50),
+                                                               Genus_id INT,
+   FOREIGN KEY (Genus_id) REFERENCES pack_animals (Id) ON DELETE CASCADE ON UPDATE CASCADE);
+
+
+INSERT INTO horses (Name, Commands, Birthdate, Genus_id)
+VALUES ('Булат', 'Бежать', '2015-06-10', 1),
+       ('Рыжик', 'Скачки', '2016-03-14', 1),
+       ('Гром', 'шагом', '2021-11-11', 1),
+       ('Белка', 'Прыгать через препятствия', '2017-12-22', 1);
+
+
+CREATE TABLE camels
+  (Id INT AUTO_INCREMENT PRIMARY KEY,
+                                 Name VARCHAR(20),
+                                      Birthdate DATE, Commands VARCHAR(50),
+                                                               Genus_id INT,
+   FOREIGN KEY (Genus_id) REFERENCES pack_animals (Id) ON DELETE CASCADE ON UPDATE CASCADE);
+
+
+INSERT INTO camels (Name, Commands, Birthdate, Genus_id)
+VALUES ('Али', 'Нести грузы', '2018-08-01', 3),
+       ('Мухаммед', 'Бежать по пескам', '2019-05-15', 3),
+       ('Халид', 'Выдерживать жару', '2020-02-20', 3),
+       ('Земфира', 'Давать молоко', '2019-05-05', 3);
+
+
+CREATE TABLE donkeys
+  (Id INT AUTO_INCREMENT PRIMARY KEY,
+                                 Name VARCHAR(20),
+                                      Birthdate DATE, Commands VARCHAR(50),
+                                                               Genus_id INT,
+   FOREIGN KEY (Genus_id) REFERENCES pack_animals (Id) ON DELETE CASCADE ON UPDATE CASCADE);
+
+
+INSERT INTO donkeys (Name, Commands, Birthdate, Genus_id)
+VALUES ('Бони', 'Тащить грузы', '2019-11-05', 2),
+       ('Ханна', 'Гулять по горам', '2020-04-20', 2),
+       ('Дизи', 'Пости овец', '2020-04-20', 2),
+       ('Луна', 'Ходить по узким тропам', '2021-02-10', 2);
+
+```
 10. Удалив из таблицы верблюдов, т.к. верблюдов решили перевезти в другой
     питомник на зимовку. Объединить таблицы лошади, и ослы в одну таблицу.
     11.Создать новую таблицу “молодые животные” в которую попадут все
