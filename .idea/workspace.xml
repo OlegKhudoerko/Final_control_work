@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1e8ff26-d264-4305-ba38-711ffa7de82d" name="Changes" comment="13 задание(Абстрактный класс)">
-      <change afterPath="$PROJECT_DIR$/src/Encapsulation/Originator.java" afterDir="false" />
+    <list default="true" id="a1e8ff26-d264-4305-ba38-711ffa7de82d" name="Changes" comment="13 задание(род питомца)">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +228,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685435545939</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="13 задание(Абстрактный класс)">
+      <created>1685436939774</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1685436939774</updated>
+    </task>
+    <task id="LOCAL-00028" summary="13 задание(добавлен класс)">
+      <created>1685437087902</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1685437087902</updated>
+    </task>
+    <task id="LOCAL-00029" summary="13 задание(род питомца)">
+      <created>1685437184517</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1685437184517</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,6 +284,8 @@
     <MESSAGE value="Тринадцатое задание (Хомяки)" />
     <MESSAGE value="Тринадцатое задание (Абстрактный класс)" />
     <MESSAGE value="13 задание(Абстрактный класс)" />
-    <option name="LAST_COMMIT_MESSAGE" value="13 задание(Абстрактный класс)" />
+    <MESSAGE value="13 задание(добавлен класс)" />
+    <MESSAGE value="13 задание(род питомца)" />
+    <option name="LAST_COMMIT_MESSAGE" value="13 задание(род питомца)" />
   </component>
 </project>
