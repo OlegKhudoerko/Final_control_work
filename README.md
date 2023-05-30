@@ -308,7 +308,7 @@ LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
 ```
 13. Создать класс с Инкапсуляцией методов и наследованием по диаграмме.
 
-    [Решение ***Тут***](https://github.com/OlegKhudoerko/Final_control_work/tree/master/src/Encapsulation)
+    [Решение ***Тут***](https://github.com/OlegKhudoerko/Final_control_work/tree/master/src/Model)
 
 14. Написать программу, имитирующую работу реестра домашних животных.
     В программе должен быть реализован следующий функционал:    
@@ -327,3 +327,8 @@ LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
     блоке try-with-resources. Нужно бросить исключение, если работа с объектом
     типа счетчик была не в ресурсном try и/или ресурс остался открыт. Значение
     считать в ресурсе try, если при заведения животного заполнены все поля
+
+    [Решение ***Тут***](https://github.com/OlegKhudoerko/Final_control_work/tree/master/src/Controller/Counter.java)
+
+    ![Task 15](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/15.png)
+    ![Task 15.](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/15_.png) 
