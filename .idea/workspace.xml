@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1e8ff26-d264-4305-ba38-711ffa7de82d" name="Changes" comment="Одиннадцатое задание">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="a1e8ff26-d264-4305-ba38-711ffa7de82d" name="Changes" comment="Двенадцатое задание" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +30,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NIKA\Desktop\Final_control_work\Final_control_work\src" />
       <recent name="C:\Users\NIKA\Desktop\Final_control_work\Final_control_work\Images" />
       <recent name="C:\Users\NIKA\Desktop\Final_control_work\Final_control_work" />
     </key>
@@ -171,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685432042380</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Двенадцатое задание">
+      <created>1685432227954</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1685432227954</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +205,7 @@
     <MESSAGE value="Девятое задание" />
     <MESSAGE value="Десятое задание" />
     <MESSAGE value="Одиннадцатое задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="Одиннадцатое задание" />
+    <MESSAGE value="Двенадцатое задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="Двенадцатое задание" />
   </component>
 </project>
