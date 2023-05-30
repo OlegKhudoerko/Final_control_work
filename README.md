@@ -51,6 +51,45 @@ DROP DATABASE IF EXISTS Mans_friends;
 CREATE DATABASE Mans_friends;
 ```
 8. Создать таблицы с иерархией из диаграммы в БД
+
+```sql
+USE Mans_friends;
+
+
+CREATE TABLE class_animal (Id INT AUTO_INCREMENT PRIMARY KEY,
+                                                         Class_name VARCHAR(20));
+
+
+INSERT INTO class_animal (Class_name)
+VALUES ('домашние'),
+       ('вьючные');
+
+
+CREATE TABLE pack_animals
+  (Id INT AUTO_INCREMENT PRIMARY KEY,
+                                 Genus_name VARCHAR (20),
+                                            Class_id INT,
+   FOREIGN KEY (Class_id) REFERENCES class_animal (Id) ON DELETE CASCADE ON UPDATE CASCADE);
+
+
+INSERT INTO pack_animals (Genus_name, Class_id)
+VALUES ('Лошади', 1),
+       ('Верблюды', 1),
+       ('Ослы', 1);
+
+
+CREATE TABLE home_animals
+  (Id INT AUTO_INCREMENT PRIMARY KEY,
+                                 Genus_name VARCHAR (20),
+                                            Class_id INT,
+   FOREIGN KEY (Class_id) REFERENCES class_animal (Id) ON DELETE CASCADE ON UPDATE CASCADE);
+
+
+INSERT INTO home_animals (Genus_name, Class_id)
+VALUES ('Собаки', 2),
+       ('Кошки', 2),
+       ('Хомяки', 2);
+```
 9. Заполнить низкоуровневые таблицы именами(животных), командами
    которые они выполняют и датами рождения
 10. Удалив из таблицы верблюдов, т.к. верблюдов решили перевезти в другой
