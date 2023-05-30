@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1e8ff26-d264-4305-ba38-711ffa7de82d" name="Changes" comment="Тринадцатое задание (Хомяки)">
-      <change afterPath="$PROJECT_DIR$/src/Encapsulation/Pet.java" afterDir="false" />
+    <list default="true" id="a1e8ff26-d264-4305-ba38-711ffa7de82d" name="Changes" comment="13 задание(Абстрактный класс)">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685434828181</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="13 задание(Абстрактный класс)">
+      <created>1685434998175</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1685434998175</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +247,8 @@
     <MESSAGE value="Тринадцатое задание (кошки)" />
     <MESSAGE value="Тринадцатое задание (Собаки)" />
     <MESSAGE value="Тринадцатое задание (Хомяки)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Тринадцатое задание (Хомяки)" />
+    <MESSAGE value="Тринадцатое задание (Абстрактный класс)" />
+    <MESSAGE value="13 задание(Абстрактный класс)" />
+    <option name="LAST_COMMIT_MESSAGE" value="13 задание(Абстрактный класс)" />
   </component>
 </project>
