@@ -191,6 +191,7 @@ VALUES ('Бони', 'Тащить грузы', '2019-11-05', 2),
     питомник на зимовку. Объединить таблицы лошади, и ослы в одну таблицу.
 
 ```sql
+
 SET SQL_SAFE_UPDATES = 0;
 
 
@@ -213,6 +214,48 @@ FROM donkeys;
     животные старше 1 года, но младше 3 лет и в отдельном столбце с точностью
     до месяца подсчитать возраст животных в новой таблице
 
+```sql
+
+CREATE
+TEMPORARY TABLE animals AS
+SELECT *,
+       'Лошади' AS genus
+FROM horses
+UNION
+SELECT *,
+       'Верблюды' AS genus
+FROM camels
+UNION
+SELECT *,
+       'Ослы' AS genus
+FROM donkeys
+UNION
+SELECT *,
+       'Собаки' AS genus
+FROM dogs
+UNION
+SELECT *,
+       'Кошки' AS genus
+FROM cats
+UNION
+SELECT *,
+       'Хомяки' AS genus
+FROM hamsters;
+
+
+CREATE TABLE yong_animals AS
+SELECT Name,
+       Commands,
+       Birthdate,
+       genus,
+       TIMESTAMPDIFF(MONTH, Birthdate, CURDATE()) AS Age_in_month
+FROM animals
+WHERE Birthdate BETWEEN ADDDATE(curdate(), INTERVAL -3 YEAR) AND ADDDATE(CURDATE(), INTERVAL -1 YEAR);
+
+
+SELECT *
+FROM yong_animals;
+```
 12. Объединить все таблицы в одну, при этом сохраняя поля, указывающие на
     прошлую принадлежность к старым таблицам.
 
