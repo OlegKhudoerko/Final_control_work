@@ -15,7 +15,8 @@
    хомяками) и Вьючные животными заполнив файл Лошадьми, верблюдами и
    ослы), а затем объединить их. Просмотреть содержимое созданного файла.
    Переименовать файл, дав ему новое имя (Друзья человека).
-   https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/1.png
+   ![Task 1](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/1.png)
+   
 
 
 2. Создать директорию, переместить файл туда.
