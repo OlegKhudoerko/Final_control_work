@@ -26,7 +26,9 @@
    
 4. Установить и удалить deb-пакет с помощью dpkg.
    ![Task 4](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/4.png) 
+
 5. Выложить историю команд в терминале ubuntu
+   ![Task 5](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/5.png) 
 
 6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние
    животные и вьючные животные, в составы которых в случае домашних
