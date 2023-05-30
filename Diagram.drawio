@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T15:56:06.929Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.4" etag="cyuUVcU9_ppFcgqrh3UU" type="device">
+<mxfile host="app.diagrams.net" modified="2023-05-30T07:00:10.098Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.4" etag="BFuQZk0ARWxS3Of1Vs13" type="device">
   <diagram id="dT4_UAJD9KKSV2xhyDcy" name="Страница 1">
     <mxGraphModel dx="892" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
         <mxCell id="2d22T7swOTkd5zDSLxT2-4" value="Class&#xa; Cat" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="316.5" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2d22T7swOTkd5zDSLxT2-5" value="Class&#xa;Hamset" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="2d22T7swOTkd5zDSLxT2-5" value="Class&#xa;Hamster" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="316.5" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2d22T7swOTkd5zDSLxT2-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Extends&lt;/font&gt;&lt;/b&gt;" style="endArrow=blockThin;endSize=16;endFill=1;html=1;rounded=0;strokeWidth=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="fX8kSdaLMVLi7RoWcLNR-5">
