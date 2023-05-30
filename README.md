@@ -15,11 +15,10 @@
    хомяками) и Вьючные животными заполнив файл Лошадьми, верблюдами и
    ослы), а затем объединить их. Просмотреть содержимое созданного файла.
    Переименовать файл, дав ему новое имя (Друзья человека).
-   ![Task 1](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/1.png)
-   
-
+   ![Task 1](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/1.png) 
 
 2. Создать директорию, переместить файл туда.
+   ![Task 2](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/2.png) 
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
    из этого репозитория.
 4. Установить и удалить deb-пакет с помощью dpkg.
