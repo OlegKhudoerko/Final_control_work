@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1e8ff26-d264-4305-ba38-711ffa7de82d" name="Changes" comment="Шестое задание">
-      <change beforePath="$PROJECT_DIR$/Diagram.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Diagram.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +32,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\NIKA\Desktop\Final_control_work\Final_control_work" />
       <recent name="C:\Users\NIKA\Desktop\Final_control_work\Final_control_work\Images" />
+      <recent name="C:\Users\NIKA\Desktop\Final_control_work\Final_control_work" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -108,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685429675860</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Шестое задание">
+      <created>1685430050199</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685430050199</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Шестое задание">
+      <created>1685430216732</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685430216732</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
