@@ -318,7 +318,7 @@ LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
     14.4 обучить животное новым командам    
     14.5 Реализовать навигацию по меню
 
-    [Решение ***Тут***](https://github.com/OlegKhudoerko/Final_control_work/tree/master/src/Encapsulation)
+    [Решение ***Тут***](https://github.com/OlegKhudoerko/Final_control_work/tree/master/src)
 
 
 15. Создайте класс Счетчик, у которого есть метод add(), увеличивающий̆
