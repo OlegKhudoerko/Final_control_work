@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1e8ff26-d264-4305-ba38-711ffa7de82d" name="Changes" comment="Второе задание" />
+    <list default="true" id="a1e8ff26-d264-4305-ba38-711ffa7de82d" name="Changes" comment="Четвертое задание">
+      <change afterPath="$PROJECT_DIR$/Images/5.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685428503028</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Третье задание">
+      <created>1685429022965</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685429022965</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Четвертое задание">
+      <created>1685429219467</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685429219467</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +112,8 @@
     <MESSAGE value="Продолжение" />
     <MESSAGE value="Первое задание" />
     <MESSAGE value="Второе задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="Второе задание" />
+    <MESSAGE value="Третье задание" />
+    <MESSAGE value="Четвертое задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="Четвертое задание" />
   </component>
 </project>
