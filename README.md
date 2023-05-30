@@ -19,12 +19,15 @@
 
 2. Создать директорию, переместить файл туда.
    ![Task 2](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/2.png) 
+
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
    из этого репозитория.
    ![Task 3](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/3.png) 
    
 4. Установить и удалить deb-пакет с помощью dpkg.
+   ![Task 4](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/4.png) 
 5. Выложить историю команд в терминале ubuntu
+
 6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние
    животные и вьючные животные, в составы которых в случае домашних
    животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные
