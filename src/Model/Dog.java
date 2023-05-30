@@ -1,4 +1,4 @@
-﻿package Encapsulation;
+﻿package Model;
 
 public class Dog extends Pet {
 

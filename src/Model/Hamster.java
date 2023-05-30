@@ -1,4 +1,4 @@
-﻿package Encapsulation;
+﻿package Model;
 
 public class Hamster extends Pet {
 

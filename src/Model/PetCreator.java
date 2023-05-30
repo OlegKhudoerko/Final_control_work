@@ -1,13 +1,13 @@
-﻿package Encapsulation;
+﻿package Model;
 
-public class PetOriginator extends Originator {
+public class PetCreator extends Creator {
 
     @Override
     protected Pet createNewPet(PetType type) {
 
         return switch (type) {
-            case Dog -> new Dog();
             case Cat -> new Cat();
+            case Dog -> new Dog();
             case Hamster -> new Hamster();
         };
     }

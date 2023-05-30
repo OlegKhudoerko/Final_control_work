@@ -1,8 +1,8 @@
-﻿package Encapsulation;
+﻿package Model;
 
 import java.time.LocalDate;
 
-public abstract class Originator {
+public abstract class Creator {
 
     protected abstract Pet createNewPet(PetType type);
 

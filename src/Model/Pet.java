@@ -1,4 +1,4 @@
-﻿package Encapsulation;
+﻿package Model;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -40,7 +40,6 @@ public abstract class Pet {
 
     @Override
     public String toString() {
-        return String.format("%d. %s: имя: %s, дата рождения: %s ",
-                getPetId(), getClass().getSimpleName(), name, getBirthday());
+        return String.format("%d. %s: имя: %s, дата рождения: %s ", getPetId(), getClass().getSimpleName(), name, getBirthday());
     }
 }
