@@ -308,7 +308,7 @@ LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
 ```
 13. Создать класс с Инкапсуляцией методов и наследованием по диаграмме.
 
-    [Решение ***здесь***](https://github.com/OlegKhudoerko/Final_control_work/tree/master/src/Encapsulation).
+    [Решение ***Тут***](https://github.com/OlegKhudoerko/Final_control_work/tree/master/src/Encapsulation).
 
 14. Написать программу, имитирующую работу реестра домашних животных.
     В программе должен быть реализован следующий функционал:
