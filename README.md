@@ -21,6 +21,8 @@
    ![Task 2](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/2.png) 
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
    из этого репозитория.
+   ![Task 3](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/3.png) 
+   
 4. Установить и удалить deb-пакет с помощью dpkg.
 5. Выложить историю команд в терминале ubuntu
 6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние
