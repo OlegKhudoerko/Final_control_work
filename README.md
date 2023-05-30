@@ -18,22 +18,29 @@
    ![Task 1](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/1.png) 
 
 2. Создать директорию, переместить файл туда.
+   
    ![Task 2](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/2.png) 
 
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
    из этого репозитория.
+   
    ![Task 3](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/3.png) 
    
 4. Установить и удалить deb-пакет с помощью dpkg.
+   
    ![Task 4](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/4.png) 
 
 5. Выложить историю команд в терминале ubuntu
+   
    ![Task 5](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/5.png) 
 
 6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние
    животные и вьючные животные, в составы которых в случае домашних
    животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные
    войдут: Лошади, верблюды и ослы).
+   
+   ![Task 6](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/6.png) 
+
 7. В подключенном MySQL репозитории создать базу данных “Друзья
    человека”
 8. Создать таблицы с иерархией из диаграммы в БД
