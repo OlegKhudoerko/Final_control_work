@@ -256,6 +256,8 @@ WHERE Birthdate BETWEEN ADDDATE(curdate(), INTERVAL -3 YEAR) AND ADDDATE(CURDATE
 SELECT *
 FROM yong_animals;
 ```
+![Task 11](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/11.png)
+
 12. Объединить все таблицы в одну, при этом сохраняя поля, указывающие на
     прошлую принадлежность к старым таблицам.
 
@@ -331,4 +333,4 @@ LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
     [Решение ***Тут***](https://github.com/OlegKhudoerko/Final_control_work/tree/master/src/Controller/Counter.java)
 
     ![Task 15](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/15.png)
-    ![Task 15.](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/15_.png) 
+    
