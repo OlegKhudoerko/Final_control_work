@@ -333,5 +333,5 @@ LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
 
     [Решение ***ТуТ***](https://github.com/OlegKhudoerko/Final_control_work/tree/master/src/Controller/Counter.java)
 
-    ![Task 15](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/15.png)
-    
+![Task 15](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/15.png)
+
