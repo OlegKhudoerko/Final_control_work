@@ -257,7 +257,7 @@ WHERE Birthdate BETWEEN ADDDATE(curdate(), INTERVAL -3 YEAR) AND ADDDATE(CURDATE
 SELECT *
 FROM yong_animals;
 ```
-![Task 11](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/11.png)
+   ![Task 11](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/11.png)
 
 **12. Объединить все таблицы в одну, при этом сохраняя поля, указывающие на
     прошлую принадлежность к старым таблицам.**
@@ -311,7 +311,7 @@ LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
 ```
 **13. Создать класс с Инкапсуляцией методов и наследованием по диаграмме.**
 
-    [Решение ***ТуТ***](https://github.com/OlegKhudoerko/Final_control_work/tree/master/src/Model)
+   [Решение ***ТуТ***](https://github.com/OlegKhudoerko/Final_control_work/tree/master/src/Model)
 
 **14. Написать программу, имитирующую работу реестра домашних животных.
     В программе должен быть реализован следующий функционал:    
@@ -321,7 +321,7 @@ LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
     14.4 обучить животное новым командам    
     14.5 Реализовать навигацию по меню**
 
-    [Решение ***ТуТ***](https://github.com/OlegKhudoerko/Final_control_work/tree/master/src)
+   [Решение ***ТуТ***](https://github.com/OlegKhudoerko/Final_control_work/tree/master/src)
 
 
 **15. Создайте класс Счетчик, у которого есть метод add(), увеличивающий̆
@@ -331,7 +331,7 @@ LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
     типа счетчик была не в ресурсном try и/или ресурс остался открыт. Значение
     считать в ресурсе try, если при заведения животного заполнены все поля**
 
-    [Решение ***ТуТ***](https://github.com/OlegKhudoerko/Final_control_work/tree/master/src/Controller/Counter.java)
+   [Решение ***ТуТ***](https://github.com/OlegKhudoerko/Final_control_work/tree/master/src/Controller/Counter.java)
 
-![Task 15](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/15.png)
+   ![Task 15](https://github.com/OlegKhudoerko/Final_control_work/blob/master/Images/15.png)
 
